@@ -1,0 +1,4 @@
+	- first select the "light" option in the Status Bar Style under Deployment info
+	- then add a new key: "View controller-based status bar appearance" to "NO" in info.plist under supporting
+	file folder for the project.(this tells the compiler to use what is in info.plist instead of the code in 
+	the viewController.swift)
