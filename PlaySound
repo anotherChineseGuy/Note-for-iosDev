@@ -1,0 +1,10 @@
+	- import AVFoundation
+	- inherent AVAudioPlayerDelegate to class ViewController
+	- create var audioPlayer : AVAudioPlayer!
+	- under when pressed
+		- create let soundURL = Bundle.main.url(...)
+		do
+			audioPlayer =  try AVAudioPlayer(URL!)
+		catch
+			print(error)
+		audioPlayer.play()
