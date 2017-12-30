@@ -1,0 +1,7 @@
+	- cd into the same directory as the project
+	- type "pod init" in the terminal
+	- open file with Xcode "open -a Xcode \filename"
+	- in Podfile, uncomment the top
+	- insert pod 'nameOfThePod' 
+	- after editing the Podfile type "pod install" to finish the installation process
+	- "pod update" for future use
